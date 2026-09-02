@@ -1,0 +1,11 @@
+{
+    "firstname" : "Kushanth",
+    "lastname" : "Tesika",
+    "totalprice" : 1822,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2018-01-18",
+        "checkout" : "2019-01-22"
+    },
+    "additionalneeds" : "Supper"
+}
