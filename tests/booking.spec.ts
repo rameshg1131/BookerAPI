@@ -27,7 +27,7 @@ test("creating booking", async({apiContext})=>{
     // const cookies = await apiContext.storageState();
     // console.log(cookies.cookies);
 
-    console.log(response.headersArray().entries())
+    //console.log(response.headersArray().entries())
     //expect(response.headers()['Content-Type']).toContain('application/json')
 
     //console.log(response.headers()['set-cookie'])

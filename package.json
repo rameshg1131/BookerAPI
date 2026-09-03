@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test":"playwright test booking.spec.ts",
+    "test:smoke":"playwright test bookingApi.spec.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
