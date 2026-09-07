@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test":"playwright test booking.spec.ts",
-    "test:smoke":"playwright test bookingApi.spec.ts"
+    "test": "playwright test booking.spec.ts",
+    "test:smoke": "playwright test bookingApi.spec.ts"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.62.1",
-    "@types/node": "^26.4.0"
+    "@types/node": "^26.4.1"
   },
   "dependencies": {
     "@faker-js/faker": "^10.6.0"
