@@ -2,11 +2,13 @@ import { APIRequestContext,request } from "@playwright/test";
 
 import {env} from '../Config/env'
 
+
+
 export async function getAuthToken():Promise<string>
 {
     const authContext:APIRequestContext = await request.newContext(
         {
-            baseURL:env.baseUrl
+            baseURL: env.baseUrl
    })
    
    const response = await authContext.post("/auth",
